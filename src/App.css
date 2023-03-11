@@ -1,0 +1,21 @@
+#root {
+
+  text-align: center;
+}
+
+#searchInput{
+  width: 100vw;
+  height: 280px;
+  background-image: url("../images/pattern-bg-desktop.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  color: white ;
+  font-size: 28px;
+  font-weight: 500;
+  
+}
+
+
