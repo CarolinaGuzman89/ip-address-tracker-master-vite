@@ -3,7 +3,9 @@ module.exports = {
   content: [
     "./src/main.jsx",
     "./src/App.jsx",
-    "./src/Components/Form.jsx"
+    "./src/Components/FormIp.jsx",
+    "./src/Components/Map.jsx",
+    "./src/Components/ResultsContainer.jsx"
   ],
   theme: {
     extend: {},
