@@ -8,7 +8,9 @@ module.exports = {
     "./src/Components/ResultsContainer.jsx"
   ],
   theme: {
-    extend: {},
+    extend: {
+      
+    },
   },
   plugins: [],
 }

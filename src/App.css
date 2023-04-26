@@ -1,21 +1,21 @@
 #root {
-
   text-align: center;
 }
 
-#searchInput{
-  width: 100vw;
-  height: 280px;
+
+
+#background{
   background-image: url("../images/pattern-bg-desktop.png");
   background-repeat: no-repeat;
   background-size: cover;
+  height: 300px;
+  width: 100vw;
 }
 
 h1 {
   color: white ;
   font-size: 28px;
   font-weight: 500;
-  
 }
 
 
