@@ -81,17 +81,17 @@ export default function Principal() {
                 <div className="w-full m-10 " >
                     <div className='w-1/3 h-12 inline-flex rounded-lg bg-white mb-10'>
                         <form onSubmit={handleSubmit} className='bg-white w-full flex rounded-lg '> 
-                        <input 
-                            value={searchIp.ip}
-                            onChange={handleChange}
-                            type="text"
-                            name="search"
-                            id="search"
-                            placeholder='Search for any address or domain'
-                            className='bg-white text-sm  pl-5 w-5/6 rounded-lg cursor-pointer md:text-xs'
-                            required
-                        />
-                        <button type="submit" onClick={handleClick} className='w-1/6 h-12 self-center bg-black rounded-r-lg cursor-pointer hover:bg-zinc-800'><ChevronRightIcon className=" text-slate-200 w-8" aria-hidden="true" /></button>
+                            <input 
+                                value={searchIp.ip}
+                                onChange={handleChange}
+                                type="text"
+                                name="search"
+                                id="search"
+                                placeholder='Search for any address or domain'
+                                className='bg-white text-sm  pl-5 w-5/6 rounded-lg cursor-pointer md:text-xs'
+                                required
+                            />
+                            <button type="submit" onClick={handleClick} className='w-1/6 h-12 self-center bg-black rounded-r-lg cursor-pointer hover:bg-zinc-800'><ChevronRightIcon className=" text-slate-200 w-8" aria-hidden="true" /></button>
                         </form>
                         
                     </div>
