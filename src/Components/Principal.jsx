@@ -25,7 +25,7 @@ export default function Principal() {
     const myIcon = L.icon({
         iconUrl: '/marker-icon-2x.jpg',
         iconSize: [40, 60],
-        shadowUrl:"./src/assets/marker-shadow.jpg"
+        shadowUrl:"/marker-shadow.jpg"
     })
 
 
