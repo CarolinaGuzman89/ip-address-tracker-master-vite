@@ -23,9 +23,9 @@ export default function Principal() {
     const [position, setPosition] = useState([37.38605, -122.08385]);
 
     const myIcon = L.icon({
-        iconUrl: './src/assets/marker-icon-2x.png',
+        iconUrl: './src/assets/marker-icon-2x.jpg',
         iconSize: [40, 60],
-        shadowUrl:"./src/assets/marker-shadow.png"
+        shadowUrl:"./src/assets/marker-shadow.jpg"
     })
 
 
