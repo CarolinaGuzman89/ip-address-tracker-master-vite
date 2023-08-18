@@ -14,12 +14,18 @@ const ipAddresTracker = {
 }
 
 
+
 export default function Principal() {
 
     const [ip, setIp] = useState("")
     const [ipData, setIpData] = useState(ipAddresTracker)
     
     const [position, setPosition] = useState([37.38605, -122.08385]);
+
+    const myIcon = L.icon({
+        iconUrl: './src/assets/marker-icon-2x.png',
+        iconSize: [40, 60],
+    })
 
 
     const handleChange = event => {
@@ -106,8 +112,11 @@ export default function Principal() {
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                     zIndex={10}
                 />
-                <Marker position={position} >
-                    <Popup icon={"../assets/marker-icon-2x.png"}>
+                <Marker 
+                    position={position}
+                    icon={myIcon}
+                    >
+                    <Popup>
                     A pretty CSS3 popup. <br /> Easily customizable.
                     </Popup>
                 </Marker>
